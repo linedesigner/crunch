@@ -225,9 +225,9 @@ crunch 4 4  + + 123 + \-t %%@^
 .br
 the plus sign (+) is a place holder so you can specify a character set for the character type.  crunch will use the default character set for the character type when crunch encounters a + (plus sign) on the command line.  You must either specify values for each character type or use the plus sign.  I.E. if you have two characters types you MUST either specify values for each type or use a plus sign.  So in this example the character sets will be:
 .br
-abcdefghijklmnopqrstuvwxyz
+abcçdefghıijklmnoöpqrsştuüvwxyz
 .br
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ
 .br
 123
 .br
@@ -314,7 +314,7 @@ crunch will load some japanese characters from the unicode_test character set fi
 .PP
 You can use crunch's output and pipe it into other programs.  The two most popular programs to pipe crunch into are: aircrack-ng and airolib-ng.  The syntax is as follows:
 .br
-crunch 2 4 abcdefghijklmnopqrstuvwxyz | aircrack-ng /root/Mycapfile.cap \-e MyESSID \-w-
+crunch 2 4 abcçdefghıijklmnoöpqrsştuüvwxyz | aircrack-ng /root/Mycapfile.cap \-e MyESSID \-w-
 .br
 crunch 10 10 12345 \-\-stdout | airolib-ng testdb \-import passwd \-
 .SH NOTES
