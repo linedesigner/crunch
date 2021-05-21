@@ -1,5 +1,6 @@
 # charset configuration file for winrtgen v1.2 by Massimiliano Montoro (mao@oxid.it)
 # compatible with rainbowcrack 1.1 and later by Zhu Shuanglei <shuanglei@hotmail.com>
+# turkish signs added 
 
 
 hex-lower                     = [0123456789abcçdef]
